@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        .form-container {
+    background-color: #f9f9f9; /* Cor de fundo */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 8px; /* Bordas arredondadas (opcional) */
+    max-width: 400px; /* Largura máxima */
+    height: 400px;
+    margin: 20px auto; /* Centraliza a div na página */
+    text-align:center;
+    background-image: url("https://www.ultraimagehub.com/wallpapers/tr:flp-false,gx-0.8,gy-0.5,q-75,rh-3264,rw-5824,th-1080,tw-1920/1226416188310032384.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+        body {
+    background-color: #e0f7fa; /* Cor de fundo da página */
+    font-family:'Courier New', Courier, monospace;
+}
+        form{
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #e0f7fa;
+    border-radius: 2%;
+}
+        button{
+            background-color: rgba(0, 0, 0, 0.274);
+            color: aliceblue;
+            font-family: 'Courier New', Courier, monospace;
+            width: 40%;
+            border-color: #e0f7fa;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <form action="/action_page.php">
+            <label for="fname">Nome</label><br>
+            <input type="text"><br>
+            <label for="fname">Sobrenome</label><br>
+            <input type="text"><br><br>
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
